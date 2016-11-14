@@ -98,7 +98,7 @@ var app = (function()
 			}*/
 			console.log(beacon);
 			console.log(beacon.distance);
-			if( beacon.distance <= 2){
+			if( beacon.distance <= 1){
 				main.setToQuestion();
 				console.log('*****CONNECTION FOUND AT ******')
 				console.log(beacon.distance);
