@@ -1,0 +1,70 @@
+html,body{
+	width: 100%;
+	height:100% !important;
+	margin:0;
+	padding:0;
+	background-color:#333333;
+	font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+	overflow: hidden;
+}
+
+.dir-text{
+	color:white;
+	font-size:25px;
+	margin-top:100px;
+	text-align: center;
+} 
+.start-scan{
+	background-color: dodgerblue;
+	width: 200px;
+	padding:15px 20px;
+	color:white;
+	font-size:30px;
+	text-align: center;
+	position: fixed;
+	top:320px;
+	left:392px;
+	
+}
+.back-btn{
+	
+	color:white;
+	background-color:dodgerblue;
+	position: fixed;
+	left:10px;
+	top:30px;
+	font-size:20px;
+	padding:5px 10px;
+}
+.statusBar{
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background-color:dodgerblue;
+	height:20px;
+	
+}
+.loader {
+  border: 16px solid #2d2d2d;
+  border-radius: 50%;
+  border-top: 16px solid dodgerblue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin:auto;
+	margin-top:150px;
+	display:none;
+	
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
